@@ -1,6 +1,5 @@
 const { Router } = require("express");
 const { StatusCodes, ReasonPhrases } = require("http-status-codes");
-// const TodoModel = require("../../database/models/TodoModel");
 const UserModel = require("../../database/models/UserModel");
 const AccessTokens = require("../../services/auth/AccessToken");
 
